@@ -38,7 +38,7 @@ async def status_message_f(client, message):
     #
     msg = ""
     for download in downloads:
-        downloading_dir_name = "NA"
+        downloading_dir_name = "processing file name"
         try:
             downloading_dir_name = str(download.name)
         except:
